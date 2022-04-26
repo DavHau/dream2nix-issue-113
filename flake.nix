@@ -12,6 +12,6 @@
         config.projectRoot = ./.;
       };
     in dream2nix.makeFlakeOutputs {
-      source = ../..;
+      source = ./.;
     };
 }
